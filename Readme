@@ -1,0 +1,13 @@
+The program should be invoked as python faillog.py option faillog_file
+
+python faillog.py -a faillog_file will print all the usernames in the order in which they first appear in file faillog_file
+
+python faillog.py -u username faillog_file will print all the lines of file faillog_file where the username field 
+is the same as the username argument, in the order in which they appear in the file
+
+python faillog.py -t DD/MM/YYYY HH:MM:SS faillog_file will print all the lines of file faillog_file where the date and time
+fields are later or equal to the date and time arguments, in the order in which they appear in the file
+
+python faillog.py -v will print out my student number and name
+
+this program can automatically validate arguments to be valid  
